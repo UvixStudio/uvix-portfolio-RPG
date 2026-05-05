@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Yuval Cohen — Creative Director</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700;800&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style2.css" />
+</head>
+<body>
+
+  <!-- CUSTOM CURSOR -->
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-follower" id="cursor-follower"></div>
+
+  <!-- NAV -->
+  <nav class="nav" id="nav">
+    <div class="nav-logo">UVIX</div>
+    <ul class="nav-links">
+      <li><a href="#work">Work</a></li>
+      <li><a href="#approach">Approach</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#talks">Talks</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <a href="mailto:yuval@uvixstudio.com" class="btn btn--nav">Let's Connect →</a>
+  </nav>
+
+  <!-- ===================== HERO ===================== -->
+  <section class="hero" id="hero">
+
+    <!-- Background layers -->
+    <div class="hero-bg">
+      <div class="hero-bg__glow hero-bg__glow--1"></div>
+      <div class="hero-bg__glow hero-bg__glow--2"></div>
+      <div class="hero-bg__grid"></div>
+    </div>
+
+    <!-- Left: Text -->
+    <div class="hero-content">
+      <p class="hero-eyebrow" data-reveal>CREATIVE DIRECTOR</p>
+      <h1 class="hero-headline" data-reveal>
+        <span class="hero-headline__line">I design <em>ideas.</em></span>
+        <span class="hero-headline__line">I build <em class="accent">systems.</em></span>
+      </h1>
+      <p class="hero-sub" data-reveal>
+        Turning complex ideas into visual experiences<br/>through AI, 3D and creative direction.
+      </p>
+
+      <!-- Stats row -->
+      <div class="hero-stats" data-reveal>
+        <div class="stat">
+          <span class="stat__num">20+</span>
+          <span class="stat__label">Years Experience</span>
+        </div>
+        <div class="stat">
+          <span class="stat__num">100+</span>
+          <span class="stat__label">Projects Delivered</span>
+        </div>
+        <div class="stat">
+          <span class="stat__num">Global</span>
+          <span class="stat__label">Impact</span>
+        </div>
+      </div>
+
+      <div class="hero-actions" data-reveal>
+        <a href="#work" class="btn btn--primary">View Work →</a>
+        <a href="#about" class="btn btn--ghost">About Me</a>
+      </div>
+    </div>
+
+    <!-- Right: Character stage -->
+    <div class="hero-char-stage" id="hero-char-stage">
+      <!-- Portal glow -->
+      <div class="portal-ring"></div>
+      <div class="portal-ring portal-ring--2"></div>
+      <div class="portal-glow"></div>
+
+      <!-- Characters (scroll-driven) -->
+      <img src="assets/characters/architect.png"
+           alt="The Architect" class="hero-char hero-char--active" id="hc-0"
+           onerror="this.style.display='none'" />
+      <img src="assets/characters/alchemist-cut.png"
+           alt="The Alchemist" class="hero-char" id="hc-1"
+           onerror="this.style.display='none'" />
+      <img src="assets/characters/engineer-cut.png"
+           alt="The Engineer" class="hero-char" id="hc-2"
+           onerror="this.style.display='none'" />
+      <img src="assets/characters/storyteller-cut.png"
+           alt="The Storyteller" class="hero-char" id="hc-3"
+           onerror="this.style.display='none'" />
+
+      <!-- Floating particles -->
+      <div class="particle" style="--x:20%;--y:15%;--s:6px;--d:2.1s"></div>
+      <div class="particle" style="--x:80%;--y:25%;--s:4px;--d:3.4s"></div>
+      <div class="particle" style="--x:65%;--y:70%;--s:8px;--d:1.8s"></div>
+      <div class="particle" style="--x:15%;--y:60%;--s:5px;--d:2.7s"></div>
+      <div class="particle" style="--x:90%;--y:55%;--s:3px;--d:4.1s"></div>
+    </div>
+
+    <!-- Roles sidebar -->
+    <div class="roles-sidebar" data-reveal>
+      <p class="roles-sidebar__label">Roles change.<br/><strong>Purpose stays.</strong></p>
+      <ul class="roles-list" id="roles-list">
+        <li class="role-item role-item--active" data-role="0">Creative Director</li>
+        <li class="role-item" data-role="1">Art Director</li>
+        <li class="role-item" data-role="2">Designer</li>
+        <li class="role-item" data-role="3">Producer</li>
+        <li class="role-item" data-role="4">3D Specialist</li>
+        <li class="role-item" data-role="5">AI Explorer</li>
+        <li class="role-item" data-role="6">Problem Solver</li>
+      </ul>
+    </div>
+
+    <!-- Scroll hint -->
+    <div class="scroll-hint">
+      <span class="scroll-hint__line"></span>
+      <span class="scroll-hint__text">SCROLL</span>
+    </div>
+
+  </section>
+
+  <!-- ===================== TRUSTED BY ===================== -->
+  <section class="trusted">
+    <div class="trusted__inner">
+      <p class="trusted__label">TRUSTED BY INNOVATIVE BRANDS</p>
+      <div class="logo-track-wrap">
+        <div class="logo-track">
+          <span class="logo-item logo-item--text">CoderZ</span>
+          <span class="logo-item logo-item--text">PAYMAX</span>
+          <span class="logo-item logo-item--text">Israel Railways</span>
+          <span class="logo-item logo-item--text">LEGO Education</span>
+          <span class="logo-item logo-item--text">Amazon Future Engineer</span>
+          <span class="logo-item logo-item--text">New York Lottery</span>
+          <span class="logo-item logo-item--text">Promee</span>
+          <!-- duplicate -->
+          <span class="logo-item logo-item--text">CoderZ</span>
+          <span class="logo-item logo-item--text">PAYMAX</span>
+          <span class="logo-item logo-item--text">Israel Railways</span>
+          <span class="logo-item logo-item--text">LEGO Education</span>
+          <span class="logo-item logo-item--text">Amazon Future Engineer</span>
+          <span class="logo-item logo-item--text">New York Lottery</span>
+          <span class="logo-item logo-item--text">Promee</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== WHAT I DO ===================== -->
+  <section class="section section--light" id="about">
+    <div class="container">
+      <p class="section-eyebrow" data-reveal>WHAT I DO</p>
+      <h2 class="section-title" data-reveal>
+        Capabilities that<br/>power <em class="accent">every</em> project.
+      </h2>
+      <div class="capabilities-grid">
+
+        <div class="cap-card" data-reveal>
+          <div class="cap-icon cap-icon--systems">
+            <div class="icon3d-cube">
+              <div class="f f-front"></div><div class="f f-back"></div>
+              <div class="f f-left"></div><div class="f f-right"></div>
+              <div class="f f-top"></div><div class="f f-bottom"></div>
+            </div>
+          </div>
+          <h3 class="cap-title">System Thinking</h3>
+          <p class="cap-desc">Building structured creative ecosystems, not just outputs.</p>
+        </div>
+
+        <div class="cap-card" data-reveal>
+          <div class="cap-icon cap-icon--ai">
+            <div class="icon3d-gem">
+              <div class="gem-t"></div>
+              <div class="gem-m"></div>
+              <div class="gem-b"></div>
+            </div>
+          </div>
+          <h3 class="cap-title">AI + 3D Integration</h3>
+          <p class="cap-desc">Connecting emerging tools into real workflows that ship.</p>
+        </div>
+
+        <div class="cap-card" data-reveal>
+          <div class="cap-icon cap-icon--story">
+            <div class="icon3d-book">
+              <div class="book-cover"></div>
+              <div class="book-page book-page--1"></div>
+              <div class="book-page book-page--2"></div>
+              <div class="book-spine"></div>
+            </div>
+          </div>
+          <h3 class="cap-title">Visual Storytelling</h3>
+          <p class="cap-desc">Turning ideas into compelling experiences that connect.</p>
+        </div>
+
+        <div class="cap-card" data-reveal>
+          <div class="cap-icon cap-icon--direction">
+            <div class="icon3d-shield">
+              <div class="shield-b"></div>
+              <div class="shield-e"></div>
+            </div>
+          </div>
+          <h3 class="cap-title">Creative Direction</h3>
+          <p class="cap-desc">Aligning product, brand and execution from concept to launch.</p>
+        </div>
+
+        <div class="cap-card" data-reveal>
+          <div class="cap-icon cap-icon--execution">
+            <div class="icon3d-arrow">
+              <div class="arrow-shaft"></div>
+              <div class="arrow-head"></div>
+            </div>
+          </div>
+          <h3 class="cap-title">End-to-End Direction</h3>
+          <p class="cap-desc">From concept to final output, fully art directed.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== SELECTED WORK ===================== -->
+  <section class="section section--dark" id="work">
+    <div class="container">
+      <div class="section-header">
+        <div>
+          <p class="section-eyebrow" data-reveal>SELECTED WORK</p>
+          <h2 class="section-title section-title--white" data-reveal>Featured Projects</h2>
+        </div>
+        <a href="#" class="btn btn--ghost btn--sm">View all projects →</a>
+      </div>
+
+      <div class="projects-grid">
+
+        <!-- CoderZ — featured large -->
+        <div class="proj-card proj-card--featured" data-reveal>
+          <div class="proj-card__img proj-card__img--coderz"></div>
+          <div class="proj-card__overlay">
+            <div class="proj-card__tags">
+              <span class="tag">AI</span><span class="tag">3D</span>
+              <span class="tag">UI/UX</span><span class="tag">BROADCAST</span>
+            </div>
+            <h3 class="proj-card__title">CoderZ</h3>
+            <p class="proj-card__role">Global EdTech Platform</p>
+            <p class="proj-card__desc">Creative Direction, Product, 3D, Broadcast</p>
+            <span class="proj-card__arrow">↗</span>
+          </div>
+          <div class="proj-card__badge">FEATURED PROJECT</div>
+        </div>
+
+        <!-- Paymax -->
+        <div class="proj-card" data-reveal>
+          <div class="proj-card__img proj-card__img--paymax"></div>
+          <div class="proj-card__overlay">
+            <div class="proj-card__tags">
+              <span class="tag">AR</span><span class="tag">3D</span><span class="tag">PRODUCT</span>
+            </div>
+            <h3 class="proj-card__title">Paymax</h3>
+            <p class="proj-card__role">AR Gaming Platform</p>
+            <p class="proj-card__desc">3D, Product, Innovation</p>
+            <span class="proj-card__arrow">↗</span>
+          </div>
+        </div>
+
+        <!-- Bone Bash -->
+        <div class="proj-card" data-reveal>
+          <div class="proj-card__img proj-card__img--bonebash"></div>
+          <div class="proj-card__overlay">
+            <div class="proj-card__tags">
+              <span class="tag">AI</span><span class="tag">GAME</span><span class="tag">3D</span>
+            </div>
+            <h3 class="proj-card__title">Bone Bash</h3>
+            <p class="proj-card__role">Game Development</p>
+            <p class="proj-card__desc">AI Pipeline, Art Direction</p>
+            <span class="proj-card__arrow">↗</span>
+          </div>
+        </div>
+
+        <!-- Promee -->
+        <div class="proj-card" data-reveal>
+          <div class="proj-card__img proj-card__img--promee"></div>
+          <div class="proj-card__overlay">
+            <div class="proj-card__tags">
+              <span class="tag">AI</span><span class="tag">VIDEO</span><span class="tag">GEN AI</span>
+            </div>
+            <h3 class="proj-card__title">Promee</h3>
+            <p class="proj-card__role">AI Video Project</p>
+            <p class="proj-card__desc">Creative Direction, Generative Workflow</p>
+            <span class="proj-card__arrow">↗</span>
+          </div>
+        </div>
+
+        <!-- Talk -->
+        <div class="proj-card" data-reveal>
+          <div class="proj-card__img proj-card__img--talk"></div>
+          <div class="proj-card__overlay">
+            <div class="proj-card__tags">
+              <span class="tag">SPEAKING</span><span class="tag">3D</span>
+            </div>
+            <h3 class="proj-card__title">The Next Big Bang in 3D</h3>
+            <p class="proj-card__role">Ludo Conference 2023</p>
+            <p class="proj-card__desc">Keynote, AI Workflow Demo</p>
+            <span class="proj-card__arrow">↗</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== APPROACH ===================== -->
+  <section class="section section--mid" id="approach">
+    <div class="container approach-grid">
+      <div class="approach-left" data-reveal>
+        <p class="section-eyebrow">MY APPROACH</p>
+        <h2 class="approach-title">
+          Design is not<br/>what it looks like.<br/>
+          Design is how it <em class="accent">works.</em>
+        </h2>
+        <p class="approach-body">
+          I combine creativity with technology to build digital experiences that move people and brands forward. No single workflow fits every project — I design the process itself.
+        </p>
+        <a href="#contact" class="btn btn--outline">More about my approach →</a>
+      </div>
+      <div class="approach-right" data-reveal>
+        <div class="approach-card">
+          <div class="approach-card__icon">⬡</div>
+          <h4>System Thinking</h4>
+          <p>I see the big picture and build the right structure.</p>
+        </div>
+        <div class="approach-card">
+          <div class="approach-card__icon">◈</div>
+          <h4>AI + 3D Integration</h4>
+          <p>I use cutting-edge tools to create what was impossible.</p>
+        </div>
+        <div class="approach-card">
+          <div class="approach-card__icon">◎</div>
+          <h4>Visual Storytelling</h4>
+          <p>I craft visuals that communicate, engage and drive impact.</p>
+        </div>
+        <div class="approach-card">
+          <div class="approach-card__icon">▷</div>
+          <h4>End-to-End Creation</h4>
+          <p>From concept to final output, fully art directed.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== TOOLS ===================== -->
+  <section class="tools-section">
+    <div class="container">
+      <p class="section-eyebrow text-center" data-reveal>AI & CREATIVE TOOLS I WORK WITH</p>
+    </div>
+    <div class="tools-track-wrap">
+      <div class="tools-track">
+        <span class="tool-item">Midjourney</span>
+        <span class="tool-item">Runway</span>
+        <span class="tool-item">Photoshop</span>
+        <span class="tool-item">After Effects</span>
+        <span class="tool-item">Blender</span>
+        <span class="tool-item">Unity</span>
+        <span class="tool-item">Figma</span>
+        <span class="tool-item">ChatGPT</span>
+        <span class="tool-item">Kling</span>
+        <span class="tool-item">Sora</span>
+        <span class="tool-item">Spline</span>
+        <span class="tool-item">DaVinci Resolve</span>
+        <span class="tool-item">Cursor</span>
+        <span class="tool-item">Claude</span>
+        <!-- duplicate -->
+        <span class="tool-item">Midjourney</span>
+        <span class="tool-item">Runway</span>
+        <span class="tool-item">Photoshop</span>
+        <span class="tool-item">After Effects</span>
+        <span class="tool-item">Blender</span>
+        <span class="tool-item">Unity</span>
+        <span class="tool-item">Figma</span>
+        <span class="tool-item">ChatGPT</span>
+        <span class="tool-item">Kling</span>
+        <span class="tool-item">Sora</span>
+        <span class="tool-item">Spline</span>
+        <span class="tool-item">DaVinci Resolve</span>
+        <span class="tool-item">Cursor</span>
+        <span class="tool-item">Claude</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== CTA ===================== -->
+  <section class="cta-section" id="contact">
+    <div class="cta-section__bg">
+      <div class="cta-char-wrap">
+        <img src="assets/characters/architect.png" alt="" class="cta-char"
+          onerror="this.style.display='none'" />
+      </div>
+    </div>
+    <div class="container cta-content">
+      <h2 class="cta-title" data-reveal>
+        Let's build something<br/>that <em class="accent">actually works.</em>
+      </h2>
+      <div class="cta-meta">
+        <span>✉ yuval@uvix.studio</span>
+        <span>📍 Tel Aviv, Israel</span>
+      </div>
+      <div class="cta-actions">
+        <a href="mailto:yuval@uvixstudio.com" class="btn btn--primary btn--lg">Let's Connect →</a>
+        <a href="https://linkedin.com/in/meet-yuval-cohen" target="_blank" class="btn btn--ghost btn--lg">LinkedIn</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer__inner">
+      <span class="footer__logo">UVIX</span>
+      <span>© 2026 Yuval Cohen · All rights reserved</span>
+      <div class="footer__links">
+        <a href="https://linkedin.com/in/meet-yuval-cohen" target="_blank">LinkedIn</a>
+        <a href="#">Instagram</a>
+        <a href="mailto:yuval@uvixstudio.com">Email</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script2.js"></script>
+</body>
+</html>
