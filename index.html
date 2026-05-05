@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Yuval Cohen – Creative Technologist</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="nav">
+    <div class="nav-logo">YC</div>
+    <ul class="nav-links">
+      <li><a href="#work">Work</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- ===================== HERO TRACK (500vh) ===================== -->
+  <div class="hero-track" id="hero-track">
+    <div class="hero-sticky" id="hero-sticky">
+
+      <!-- Ambient background parallax layer -->
+      <div class="parallax-bg" id="parallax-bg"></div>
+
+      <!-- FRAME 0: Identity -->
+      <div class="hero-frame is-active" data-frame="0" id="frame-identity">
+        <div class="parallax-text">
+          <div class="hero-frame__left">
+            <p class="eyebrow">— Step in.</p>
+            <h1 class="hero-title">
+              Hi, I'm<br />
+              <span class="hero-name">Yuval Cohen</span>
+            </h1>
+            <p class="hero-sub">
+              A Creative <span class="accent-text">Technologist</span>
+            </p>
+            <div class="hero-actions">
+              <a href="#work" class="btn btn--ghost">View Work</a>
+            </div>
+          </div>
+        </div>
+        <div class="parallax-char">
+          <div class="hero-frame__right">
+            <div class="profile-ring">
+              <img src="rgp images refs/site assets/yuval linkedin profile.jpg" alt="Yuval Cohen" class="profile-img" />
+              <div class="profile-glow"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- FRAME 1: Architect -->
+      <div class="hero-frame" data-frame="1" id="frame-architect">
+        <div class="parallax-text">
+          <div class="hero-frame__left">
+            <p class="eyebrow">— Different <span class="accent-text">roles</span>, working as <span class="accent-text">one.</span></p>
+            <p class="roles-label">Meet the</p>
+            <div class="role-display">
+              <span class="role-text">ARCHITECT</span><span class="cursor-blink">_</span>
+            </div>
+            <p class="role-desc">Designs the vision.<br/>Shapes systems that scale.</p>
+            <div class="hero-actions">
+              <a href="#work" class="btn btn--primary">View My Work →</a>
+              <a href="#about" class="btn btn--ghost">About Me</a>
+            </div>
+          </div>
+        </div>
+        <div class="parallax-char">
+          <div class="hero-frame__right hero-frame__right--chars">
+            <div class="char-stage">
+              <img src="assets/characters/architect.png" alt="The Architect" class="char-img"
+                onerror="this.style.display='none'" />
+              <div class="char-glow"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- FRAME 2: Alchemist -->
+      <div class="hero-frame" data-frame="2" id="frame-alchemist">
+        <div class="parallax-text">
+          <div class="hero-frame__left">
+            <p class="eyebrow">— Different <span class="accent-text">roles</span>, working as <span class="accent-text">one.</span></p>
+            <p class="roles-label">Meet the</p>
+            <div class="role-display">
+              <span class="role-text">ALCHEMIST</span><span class="cursor-blink">_</span>
+            </div>
+            <p class="role-desc">Transforms ideas into magic.<br/>Combines tools and intelligence.</p>
+            <div class="hero-actions">
+              <a href="#work" class="btn btn--primary">View My Work →</a>
+              <a href="#about" class="btn btn--ghost">About Me</a>
+            </div>
+          </div>
+        </div>
+        <div class="parallax-char">
+          <div class="hero-frame__right hero-frame__right--chars">
+            <div class="char-stage">
+              <img src="rgp images refs/site assets/Alchemist.png" alt="The Alchemist" class="char-img"
+                onerror="this.style.display='none'" />
+              <div class="char-glow"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- FRAME 3: Engineer -->
+      <div class="hero-frame" data-frame="3" id="frame-engineer">
+        <div class="parallax-text">
+          <div class="hero-frame__left">
+            <p class="eyebrow">— Different <span class="accent-text">roles</span>, working as <span class="accent-text">one.</span></p>
+            <p class="roles-label">Meet the</p>
+            <div class="role-display">
+              <span class="role-text">ENGINEER</span><span class="cursor-blink">_</span>
+            </div>
+            <p class="role-desc">Builds the pipelines.<br/>Connects systems to flow.</p>
+            <div class="hero-actions">
+              <a href="#work" class="btn btn--primary">View My Work →</a>
+              <a href="#about" class="btn btn--ghost">About Me</a>
+            </div>
+          </div>
+        </div>
+        <div class="parallax-char">
+          <div class="hero-frame__right hero-frame__right--chars">
+            <div class="char-stage">
+              <img src="rgp images refs/site assets/engineer.png" alt="The Engineer" class="char-img"
+                onerror="this.style.display='none'" />
+              <div class="char-glow"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- FRAME 4: Storyteller -->
+      <div class="hero-frame" data-frame="4" id="frame-storyteller">
+        <div class="parallax-text">
+          <div class="hero-frame__left">
+            <p class="eyebrow">— Different <span class="accent-text">roles</span>, working as <span class="accent-text">one.</span></p>
+            <p class="roles-label">Meet the</p>
+            <div class="role-display">
+              <span class="role-text">STORYTELLER</span><span class="cursor-blink">_</span>
+            </div>
+            <p class="role-desc">Turns complexity into meaning.<br/>Crafts stories that connect.</p>
+            <div class="hero-actions">
+              <a href="#work" class="btn btn--primary">View My Work →</a>
+              <a href="#about" class="btn btn--ghost">About Me</a>
+            </div>
+          </div>
+        </div>
+        <div class="parallax-char">
+          <div class="hero-frame__right hero-frame__right--chars">
+            <div class="char-stage">
+              <img src="assets/characters/storyteller.png" alt="The Storyteller" class="char-img"
+                onerror="this.style.display='none'" />
+              <div class="char-glow"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Navigation indicators -->
+      <nav class="nav-indicators" id="nav-indicators" aria-label="Hero frame navigation">
+        <button class="nav-dot nav-dot--active" data-target="0" aria-label="Frame 1: Identity"></button>
+        <button class="nav-dot" data-target="1" aria-label="Frame 2: Architect"></button>
+        <button class="nav-dot" data-target="2" aria-label="Frame 3: Alchemist"></button>
+        <button class="nav-dot" data-target="3" aria-label="Frame 4: Engineer"></button>
+        <button class="nav-dot" data-target="4" aria-label="Frame 5: Storyteller"></button>
+      </nav>
+
+      <!-- Scroll hint -->
+      <div class="scroll-hint" id="scroll-hint">
+        <span class="scroll-hint__label">Scroll to explore</span>
+        <span class="scroll-hint__mouse"></span>
+      </div>
+
+    </div>
+  </div>
+  <!-- END HERO TRACK -->
+
+  <!-- ===================== ABOUT ===================== -->
+  <section class="section section--light" id="about">
+    <div class="container container--narrow text-center">
+      <blockquote class="big-quote">
+        "Restrictions &amp; limitations ignite my creativity.<br />
+        <em class="accent-text">This is where I shine.</em>"
+      </blockquote>
+      <p class="body-text">
+        With 20+ years across print, interactive, product design, marketing, video, animation, 3D, and educational media — I bring a unique blend of creative vision and production expertise. I lead design teams, build custom workflows, and integrate AI tools to push ideas further.
+      </p>
+    </div>
+  </section>
+
+  <!-- ===================== COMPANIES SCROLLER ===================== -->
+  <section class="logo-strip">
+    <div class="logo-strip__inner">
+      <div class="logo-track" id="logo-track">
+        <span class="logo-item">CoderZ</span>
+        <span class="logo-item">LEGO Education</span>
+        <span class="logo-item">Amazon Future Engineer</span>
+        <span class="logo-item">New York Lottery</span>
+        <span class="logo-item">Paymax</span>
+        <span class="logo-item">Ludo Conference</span>
+        <span class="logo-item">Promee</span>
+        <span class="logo-item">Uvix Studio</span>
+        <!-- Duplicate for seamless loop -->
+        <span class="logo-item">CoderZ</span>
+        <span class="logo-item">LEGO Education</span>
+        <span class="logo-item">Amazon Future Engineer</span>
+        <span class="logo-item">New York Lottery</span>
+        <span class="logo-item">Paymax</span>
+        <span class="logo-item">Ludo Conference</span>
+        <span class="logo-item">Promee</span>
+        <span class="logo-item">Uvix Studio</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== FEATURED ===================== -->
+  <section class="section section--dark" id="work">
+    <div class="container">
+      <p class="section-label">Featured Project</p>
+      <div class="featured-grid">
+        <div class="featured-content">
+          <div class="tag-row">
+            <span class="tag">EdTech</span>
+            <span class="tag">3D</span>
+            <span class="tag">Gamification</span>
+            <span class="tag">Brand</span>
+          </div>
+          <h2 class="featured-title">CoderZ</h2>
+          <p class="featured-role">Creative Director · 2020–2023</p>
+          <p class="body-text">
+            Led the end-to-end visual strategy scaling CoderZ from a startup into an award-winning global EdTech leader. Rebranded the company, directed 12 competition games, and built scalable pipelines supporting global partnerships with LEGO Education and Amazon Future Engineer.
+          </p>
+          <ul class="bullet-list">
+            <li>Tripled annual course production through systemized design workflows</li>
+            <li>Produced 100+ videos and live broadcasts</li>
+            <li>EdTech Awards 2021 &amp; 2024 · Best of STEM 2024</li>
+          </ul>
+          <a href="#" class="btn btn--primary">View Case Study →</a>
+        </div>
+        <div class="featured-visual">
+          <div class="visual-placeholder">CoderZ</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== PROJECTS ===================== -->
+  <section class="section section--light" id="projects">
+    <div class="container">
+      <h2 class="section-title">More Work</h2>
+      <div class="projects-grid">
+
+        <div class="card card--wide">
+          <div class="card__thumb card__thumb--paymax"></div>
+          <div class="card__body">
+            <div class="tag-row"><span class="tag tag--dark">AR</span><span class="tag tag--dark">3D</span><span class="tag tag--dark">Gaming</span></div>
+            <h3 class="card__title">Paymax</h3>
+            <p class="card__desc">Led AR strategy for the New York Lottery — transforming physical scratch-off tickets into immersive 3D sports games.</p>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card__thumb card__thumb--bonebash"></div>
+          <div class="card__body">
+            <div class="tag-row"><span class="tag tag--dark">AI</span><span class="tag tag--dark">Game Design</span></div>
+            <h3 class="card__title">Bone Bash</h3>
+            <p class="card__desc">AI-powered mobile game concept and cinematic trailer built end-to-end with generative tools.</p>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card__thumb card__thumb--promee"></div>
+          <div class="card__body">
+            <div class="tag-row"><span class="tag tag--dark">AI Video</span><span class="tag tag--dark">Brand</span></div>
+            <h3 class="card__title">Promee</h3>
+            <p class="card__desc">First end-to-end AI generative project — brand identity, hero animation and promo video for an Israeli music platform.</p>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card__thumb card__thumb--talk"></div>
+          <div class="card__body">
+            <div class="tag-row"><span class="tag tag--dark">Speaking</span><span class="tag tag--dark">3D</span></div>
+            <h3 class="card__title">The Next Big Bang in 3D</h3>
+            <p class="card__desc">Featured speaker at Ludo Conference 2023 — pioneering workflow from 2D sketches to generative 3D immersive experiences.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== TOOLKIT ===================== -->
+  <section class="section section--dark" id="toolkit">
+    <div class="container">
+      <p class="eyebrow">Every creative process needs its own recipe</p>
+      <h2 class="section-title">The <span class="accent-text">Toolkit</span></h2>
+      <div class="toolkit-grid">
+
+        <div class="toolkit-card">
+          <div class="toolkit-icon toolkit-icon--ai">
+            <div class="icon-cube">
+              <div class="cube-face cube-face--front"></div>
+              <div class="cube-face cube-face--back"></div>
+              <div class="cube-face cube-face--left"></div>
+              <div class="cube-face cube-face--right"></div>
+              <div class="cube-face cube-face--top"></div>
+              <div class="cube-face cube-face--bottom"></div>
+            </div>
+          </div>
+          <h4 class="toolkit-card__title">AI &amp; Visuals</h4>
+          <p class="toolkit-card__tools">Freepik · Flux · Kling · Ideogram · Sora · Leonardo</p>
+        </div>
+
+        <div class="toolkit-card">
+          <div class="toolkit-icon toolkit-icon--video">
+            <div class="icon-gem">
+              <div class="gem-top"></div>
+              <div class="gem-mid"></div>
+              <div class="gem-bot"></div>
+            </div>
+          </div>
+          <h4 class="toolkit-card__title">Video &amp; Sound</h4>
+          <p class="toolkit-card__tools">DaVinci Resolve · Runway · Minimax · Suno · Udio · Hedra</p>
+        </div>
+
+        <div class="toolkit-card">
+          <div class="toolkit-icon toolkit-icon--3d">
+            <div class="icon-shield">
+              <div class="shield-body"></div>
+              <div class="shield-emblem"></div>
+            </div>
+          </div>
+          <h4 class="toolkit-card__title">3D &amp; Interactive</h4>
+          <p class="toolkit-card__tools">Unity · Spline · PlayCanvas · Mixamo · Hunyuan 3D</p>
+        </div>
+
+        <div class="toolkit-card">
+          <div class="toolkit-icon toolkit-icon--code">
+            <div class="icon-scroll">
+              <div class="scroll-body"></div>
+              <div class="scroll-top"></div>
+              <div class="scroll-bot"></div>
+            </div>
+          </div>
+          <h4 class="toolkit-card__title">Code &amp; Build</h4>
+          <p class="toolkit-card__tools">Cursor · Claude · Lovable · Base44 · Figma · Zapier</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== CTA BANNER ===================== -->
+  <section class="section section--cta" id="contact">
+    <div class="cta-bg-glow"></div>
+    <div class="container text-center">
+      <p class="eyebrow">Ready to create something extraordinary?</p>
+      <h2 class="cta-title">Let's build something<br /><span class="accent-text">remarkable.</span></h2>
+      <p class="cta-sub">Creative Technologist · Producer · 3D Specialist · 20+ years of experience</p>
+      <div class="cta-actions">
+        <a href="mailto:yuval@uvixstudio.com" class="btn btn--primary btn--lg">Get In Touch</a>
+        <a href="https://linkedin.com/in/meet-yuval-cohen" target="_blank" class="btn btn--ghost btn--lg">LinkedIn →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="footer">
+    <div class="footer__inner">
+      <span>© 2026 Yuval Cohen</span>
+      <span>Creative Technologist · Producer · 3D Specialist</span>
+      <span>yuval@uvixstudio.com</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

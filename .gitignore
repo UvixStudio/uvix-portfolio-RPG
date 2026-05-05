@@ -1,0 +1,28 @@
+# Large reference/asset folders (not needed in repo)
+rgp images refs/
+Archive/
+Planing/
+
+# Python
+__pycache__/
+*.pyc
+split_characters.py
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Kiro internal
+.kiro/
+
+# Docs
+*.pdf
+*.docx
+*.txt
+*.png
+*.jpg
+*.jpeg
+
+# Keep site assets
+!assets/
+!assets/**
