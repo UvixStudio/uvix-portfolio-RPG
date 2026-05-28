@@ -26,3 +26,5 @@ Thumbs.db
 # Keep site assets
 !assets/
 !assets/**
+!extracted-images/
+!extracted-images/**
